@@ -1,0 +1,4 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+      <item name="TAG_DESPLEGADO_ID" type="id"/>
+      <item name="TAG_MATERIA_ID" type="id"/>
+    </resources>

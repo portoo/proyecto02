@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/newmateria"
+        android:icon="@drawable/ic_action_add_to_queue"
+        android:title="@string/addmaterias"
+        android:showAsAction="always" />
+    <item android:id="@+id/info_action_bar"
+        android:icon="@drawable/ic_action_about"
+        android:title="@string/info"
+        android:showAsAction="always" />
+    <item android:id="@+id/AddPromedio"
+        android:title="@string/Ponderar"
+        android:showAsAction="never|withText"/>
+</menu>

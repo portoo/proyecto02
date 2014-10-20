@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_creation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+    android:orientation="vertical"
+    tools:context="com.mobile.average.Ingreso"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/MateriaName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/SelData"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/AgregarNuevo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="Add"
+        android:text="@string/AddData"
+        android:textColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/listaDeDatos"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/AgregarNuevo"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MateriaName" >
+
+    </ListView>
+
+</RelativeLayout>

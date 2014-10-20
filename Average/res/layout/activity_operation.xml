@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_creation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.mobile.average.Operation"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/ExpandableContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lineaNegra"
+        android:layout_alignParentTop="true" >
+        
+        <ExpandableListView
+        	android:id="@+id/expandablelist"
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent" />
+        
+    </LinearLayout>
+	<View
+	    android:id="@+id/lineaNegra"
+	    android:layout_above="@+id/linearprom"
+	    android:layout_alignParentLeft="true" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:id="@+id/linearprom"
+        android:layout_above="@+id/linearbottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="@string/promediodeseado"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/ETAcumulado"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+		android:id="@+id/linearbottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            android:id="@+id/BTCalcular"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_red_light"
+            android:text="@string/calculate"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/BTGuardar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_red_light"
+            android:text="@string/save"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

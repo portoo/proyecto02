@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Average</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Cargar Datos</string>
+    <string name="promedio">Promedio Acumulado:</string>
+    <string name="ncreditos">Número de créditos cursados:</string>
+    <string name="cargar">Cargar Datos Previos</string>
+    <string name="continua">Siguiente</string>
+	<string name="SelData">Seleccionar Semestre:</string>
+	<string name="AddData">Agregar Nuevo Semestre</string>
+	<string name="addmaterias">Agregar Materia</string>
+	<string name="aceptar">Aceptar</string>
+	<string name="labelagregar">Nombre de la Materia</string>
+	<string name="labelNnotas">Numero de notas</string>
+	<string name="lbnombrenota">Nombre de la Nota</string>
+	<string name="Porcentaje">0.1</string>
+	<string name="promediodeseado">Promedio acumulado deseado: </string>
+	<string name="save">Guardar</string>
+	<string name="calculate">Calcular</string>
+	<string name="creditos">Créditos: </string>
+	<string name="info">Promedio y Numero de Creditos Actual</string>
+	<string name="HeaderNota">Nombre de la Nota</string>
+	<string name="HeaderPer">%</string>
+	<string name="Ponderar">Agregar al promedio actual</string>
+	<string name="materiaadd">Materias: </string>
+	<string name="search">Search</string>
+</resources>
